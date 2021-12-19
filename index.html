@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+    
+    <div class="box">
+        <a class="title" href="#popup1" >Calculator</a>
+    </div>
+    <div id="popup1" class="overlay">
+    <div class="popup" >
+    <a class="close" href="#">&#11097;</a>
+        <form class="search-form" >
+            <input placeholder="Enter the first value" class="input" type="number" id="first">
+            <label for="first"></label>
+    
+            <select class="select">
+                <option disabled>Select operation</option>
+                <option>/</option>
+                <option >*</option>
+                <option >-</option>
+                <option >+</option>
+            </select><br>
+    
+            <input placeholder="Enter the second value" class="input" type="number" id="second">
+            <label for="second"></label>
+            <br>
+            <button type="submit" class="button shine-button">Submit</button>
+        </form>
+    </div>
+    </div>
+   
+    <script src="./index.js"></script>
+</body>
+</html>
