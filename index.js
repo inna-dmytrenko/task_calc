@@ -26,24 +26,21 @@ refs.button.addEventListener('click', (e) => {
     return alert('Please enter something!')
   }
 
-  //   let q = refs.inputSecond.value
-  //   let w = refs.inputFirst.value
+  let sel = refs.select.value
 
-  let selet = refs.select.value
-
-  if (selet === '/') {
+  if (sel === '/') {
     let sum = Number(refs.inputFirst.value) / Number(refs.inputSecond.value)
     alert(Math.round(sum))
   }
-  if (selet === '+') {
+  if (sel === '+') {
     let sum = Number(refs.inputFirst.value) + Number(refs.inputSecond.value)
     alert(Math.round(sum))
   }
-  if (selet === '-') {
+  if (sel === '-') {
     let sum = Number(refs.inputFirst.value) - Number(refs.inputSecond.value)
     alert(Math.round(sum))
   }
-  if (selet === '*') {
+  if (sel === '*') {
     let sum = Number(refs.inputFirst.value) * Number(refs.inputSecond.value)
     alert(Math.round(sum))
   }
